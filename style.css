@@ -9,6 +9,7 @@
     max-width: 1300px;
     padding: 0 80px;
     margin: auto;
+    scroll-behavior: smooth;
 }
 /*navbar styling*/
 .navbar{
@@ -17,6 +18,7 @@
     padding: 15px 0;
     background: black;
     font-family: 'Ubuntu', sans-serif ;
+    z-index: 999;
 }
 .navbar .max-width{
     display: flex;
@@ -38,7 +40,47 @@
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
+    transition: color 0.6s ease;
 }
+.navbar .menu li a:hover{
+    color: crimson;
+}
+/* About me styling */
+section{
+    padding: 100px 0;
+}
+.about{
+    font-family: "Poppins", sans-serif;
+}
+.about .title{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+}
+.about .title::before{
+    content:"";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: black;
+    transform: translateX(-50%);
+}
+
+.about .about-content .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+
+
 /* Home screen styling */
 
 .home{
@@ -66,12 +108,16 @@
     font-size: 40px;
     margin: 5px 0;
 }
+.home .home-content .text-3 span{
+    color: crimson;
+    font-weight: 500;
+}
 /* Home page Self-Image styling */
 #photo{
-    display: flex;
-    max-width: auto;
+    margin-left: 300px;
     height: auto;
-    padding-left: 12.5%;
-    padding-top: 5%;
-    padding-bottom: 2.5%;
+    width: auto;
+    object-fit: cover;
+    border-radius: 6px;
 }
+
