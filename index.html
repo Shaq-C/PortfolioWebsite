@@ -4,10 +4,106 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Shaquille Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+        <div class="logo">
+            <img src="" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Introduction Section -->
+    <section class="into" id="home">
+        <h1 class="section__item section__title--intro">
+            Hi, I'm <strong>Shaquille Cahill</strong>
+        </h1> 
+        <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+        <img src="images/websitephoto2.jpg" alt="picture of only me">
+    </section>
+
+
+    <!-- My Services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Service A</h3>
+                <p>Explanation</p>
+            </div>
+            <div class="service">
+                <h3>Service B</h3>
+                <p>Explanation</p>
+            </div>
+            <div class="service">
+                <h3>Service C</h3>
+                <p>Explanation</p>
+            </div>
+        </div>
+
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+
+    <!-- About Me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about"></p>
+
+        <div class="about-me__body">
+            <p></p>
+        </div>
+
+        <img src="images/websitephoto.jpg" alt="picture of wife and me">
+    </section>
+
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title">My Work</h2>
+        <p class="section__subtitle"></p>
+        
+        <div class="portfolio">
+            <!-- Portfolio item 01 -->
+            <a href="#" class="portfolio__item">
+                <img src="" alt="">
+            </a>
+            <!-- Portfolio item 02 -->
+            <a href="#" class="portfolio__item">
+                <img src="" alt="">
+            </a>
+            <!-- Portfolio item 03 -->
+            <a href="#" class="portfolio__item">
+                <img src="" alt="">
+            </a>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <a href="mailto:shaqcahill@gmail.com" class="footer__link">shaqcahill@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a href="#" class="social-list__link">Github</a>
+            </li>
+            <li class="social-list__item">
+                <a href="#" class="social-list__link">LinkedIn</a>
+            </li>
+        </ul>
+    </footer>
 </body>
 </html>
