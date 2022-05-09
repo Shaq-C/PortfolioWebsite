@@ -406,9 +406,9 @@ header{
     z-index: 2;
 }
 
-.portfolio__img:hover,
+.portfolio__item:hover,
 .portfolio__item:focus .portfolio__img{
-    transform: scale(1.2);
+    transform: scale(1.015);
     opacity: .75;
 }
 
