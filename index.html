@@ -26,7 +26,7 @@
         <nav class="nav">
             <ul class="nav__list">
                 <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Skills</a></li>
                 <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
                 <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
             </ul>
@@ -39,26 +39,30 @@
         <h1 class="section__item section__title--intro">
             Hi, I'm <strong>Shaquille Cahill</strong>
         </h1> 
-        <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+        <p class="section__subtitle section__subtitle--intro" src="#resume"><button class="btn__resume">Resume Here</button></p>
         <img src="images/websitephoto2.jpg" alt="picture of only me" class="intro__img">
     </section>
 
 
     <!-- My Services -->
     <section class="my-services" id="services">
-        <h2 class="section__title section__title--services">What I do</h2>
+        <h2 class="section__title section__title--services">Skills</h2>
         <div class="services">
             <div class="service">
-                <h3>Service A</h3>
-                <p>Explanation</p>
+                <h3>JavaScript</h3>
+                <p><i class="fa-brands fa-js fa-2xl"></i></p>
             </div>
             <div class="service">
-                <h3>Service B</h3>
-                <p>Explanation</p>
+                <h3>HTML</h3>
+                <p><i class="fa-brands fa-html5 fa-2xl"></i></p>
             </div>
             <div class="service">
-                <h3>Service C</h3>
-                <p>Explanation</p>
+                <h3>CSS</h3>
+                <p><i class="fa-brands fa-css3-alt fa-2xl"></i></p>
+            </div>
+            <div class="service">
+                <h3>React</h3>
+                <p><i class="fa-brands fa-react fa-2xl"></i></p>
             </div>
         </div>
 
@@ -68,11 +72,18 @@
 
     <!-- About Me -->
     <section class="about-me" id="about">
-        <h2 class="section__title section__title--about">Who I am</h2>
+        <h2 class="section__title section__title--about">About Me</h2>
         <p class="section__subtitle section__subtitle--about"> Self Taught Web Dev</p>
 
         <div class="about-me__body">
-            <p>This section will explain myself</p>
+            <p>Welcome to my portfolio site and thank you for taking time to view. I've always had a passion for 3 things in life, sports, food, and technology. 
+                I've always looked at coding as a gated profession reserved for the high IQ in society so its always been a little off putting to me.
+                However after taking my first coding class a year ago, I've been constantly trying to learn more and expand my skills. From the second I wrote my first "Hello World!",
+                this really became a career that I wanted for my future.
+                br
+
+                <br>Below you'll find what I've worked on in the short time I've been coding, to showcase some of my general background in developing websites.
+            </p>
         </div>
 
         <img src="images/websitephoto.jpg" alt="picture of wife and me" class="about-me__img">
@@ -82,20 +93,20 @@
     <!-- My Work -->
     <section class="my-work" id="work">
         <h2 class="section__title section__title--work">My Work</h2>
-        <p class="section__subtitle section__subtitle--work">A selection of my range of work:</p>
+        <p class="section__subtitle section__subtitle--work">Click on a photo and check out the work:</p>
         
         <div class="portfolio">
             <!-- Portfolio item 01 -->
-            <a href="#" class="portfolio__item">
-                <img src="" alt="">
+            <a href="portfolio-item.html" class="portfolio__item">
+                <img src="images/stockphoto1.jpg" alt="">
             </a>
             <!-- Portfolio item 02 -->
-            <a href="#" class="portfolio__item">
-                <img src="" alt="">
+            <a href="portfolio-item2.html" class="portfolio__item">
+                <img src="images/stockphoto2.jpg" alt="">
             </a>
             <!-- Portfolio item 03 -->
-            <a href="#" class="portfolio__item">
-                <img src="" alt="">
+            <a href="portfolio-item3.html" class="portfolio__item">
+                <img src="images/stockphoto3.jpg" alt="">
             </a>
         </div>
     </section>
@@ -106,12 +117,13 @@
         <a href="mailto:shaqcahill@gmail.com" class="footer__link">shaqcahill@gmail.com</a>
         <ul class="social-list">
             <li class="social-list__item">
-                <a href="#" class="social-list__link"><i class="fa-brands fa-github-square"></i></a>
+                <a href="https://github.com/Shaq-C" class="social-list__link"><i class="fa-brands fa-github-square"></i></a>
             </li>
             <li class="social-list__item">
-                <a href="#" class="social-list__link"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/shaquille-cahill-1abba9149/" class="social-list__link"><i class="fa-brands fa-linkedin"></i></a>
             </li>
         </ul>
     </footer>
+    <script src="index.js"></script>
 </body>
 </html>
