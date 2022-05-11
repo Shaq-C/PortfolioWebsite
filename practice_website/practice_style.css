@@ -92,7 +92,7 @@
     transition: all 0.3s ease;
 }
 
-@media screen and (max-width:960px){
+@media screen and (max-width:800px){
     .navbar__container{
         display: flex;
         justify-content: space-between;
@@ -221,6 +221,7 @@
 }
 @media screen and (max-width: 768px) {
     .hero__heading{
+        display: grid;
         font-size: 60px;
     }
     .hero__description{
@@ -414,16 +415,18 @@
         transition: 0.3s ease-in;
         cursor: pointer;
     }
-    @media screen and (max-width: 1300px){
+    @media screen and (max-width: 1000px){
         .services__wrapper{
             grid-template-columns: 1fr 1fr;
         }
+       
     }
 
     @media screen and (max-width:768px){
         .services__wrapper{
             grid-template-columns: 1fr;
         }
+
     }
     /* Footer CSS */
 
@@ -518,7 +521,7 @@
         }
     }
 
-    @media screen and (max-width: 480px){
+    @media screen and (min-width: 820px){
         .footer__link--items{
             margin: 0;
             padding: 10px;

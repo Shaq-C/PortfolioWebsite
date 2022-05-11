@@ -65,7 +65,7 @@ strong{ font-weight: var(--fw-bold);}
     outline-offset: 3px;
 }
 .btn__resume{
-    display: inline-block;
+    display: block;
     padding: .5em 2.5em;
     background: var(--clr-accent);
     color: var(--clr-dark);
@@ -76,6 +76,8 @@ strong{ font-weight: var(--fw-bold);}
     letter-spacing: 2px;
     font-weight: var(--fw-bold);
     transition: transform 200ms ease-in-out; 
+    margin: -.25em -1.5em;
+     
 }
 
 .btn__portfolio{
@@ -90,7 +92,7 @@ strong{ font-weight: var(--fw-bold);}
     letter-spacing: 2px;
     font-weight: var(--fw-bold);
     transition: transform 200ms ease-in-out; 
-    margin: 2em 2em;
+    margin: -.25em -.54em;
 }
 
 .btn{
